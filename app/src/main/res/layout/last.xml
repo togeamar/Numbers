@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/n3"
+    tools:context=".Last">
+
+    <TextView
+        android:id="@+id/lastt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:textColor="#47D91E"
+        android:textSize="25sp"
+        android:layout_marginTop="0dp"
+        android:text="Yes" />
+
+    <TextView
+        android:id="@+id/lasttt"
+        android:layout_width="wrap_content"
+        android:textColor="#D20808"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:textSize="30sp"
+        android:text="TextView" />
+
+</LinearLayout>
